@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+# รับค่าตัวเลข 2 ค่า และแปลงเป็น integer
+first_str = input("Enter the first number:\n")
+first_num = int(first_str)
+
+second_str = input("Enter the second number:\n")
+second_num = int(second_str)
+
+# คำนวณผลลัพธ์
+result = first_num * second_num
+
+# แสดงผลการคูณ (เช่น 42 x 42 = 1764)
+print(f"{first_num} x {second_num} = {result}")
+
+# ตรวจสอบว่าผลลัพธ์เป็น บวก, ลบ หรือ ศูนย์
+if result > 0:
+    print("The result is positive.")
+elif result < 0:
+    print("The result is negative.")
+else:
+    print("The result is positive and negative.")
